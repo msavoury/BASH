@@ -1,7 +1,7 @@
 # BASH
 
 ## Colors
-BASH allows for the usage of colors and font styles in output by means of escape sequences.  These escape general format is:
+BASH allows for the usage of colors and font styles in the output by means of escape sequences.  The general format is:
 ```
 <escape-sequence><font code>
 ```
@@ -14,6 +14,8 @@ The following values are valid escape sequences
 
 
 ### Codes
+The following values are valid font codes (more to come later):
+
 **Font Styles**
 - ```[0m``` - Normal Text
 - ```[1m``` - Bold Text
