@@ -1,6 +1,6 @@
 # BASH
 
-## Colors
+## Overview
 BASH allows for the usage of colors and font styles in the output by means of escape sequences.  The general format is:
 ```
 <escape-sequence><font code>The following text will have the preceding codes' properties
