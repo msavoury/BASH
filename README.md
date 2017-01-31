@@ -43,3 +43,20 @@ For using one of the 256 colors on the foreground (text color), the control sequ
 **Background**
 
 For using one of the 256 colors on the background, the control sequence is ”<Esc>[48;5;ColorNumberm” where ColorNumber is one of the following colors:
+
+#Scripting
+## If parameter is defined (-n)
+```
+if [ -n "$1" ]
+then
+        #Code that executes only if $1 is defined
+fi
+```
+
+## If parameter is NOT defined (-z)
+```
+if [ -z "$1" ]
+then
+    #Code that executes only if $1 is not defined
+fi
+```
